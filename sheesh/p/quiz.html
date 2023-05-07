@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="quiz.css">
+  <title>Quiz</title>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Science Quiz</h1>
+    <p id="timer">5:00</p>
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. Which of the following is the smallest unit of matter?</p>
+        <label>
+          <input type="radio" name="question1" value="a">
+          Atom
+        </label>
+        <label>
+          <input type="radio" name="question1" value="b">
+          Molecule
+        </label>
+        <label>
+          <input type="radio" name="question1" value="c">
+          Electron
+        </label>
+        <label>
+          <input type="radio" name="question1" value="d">
+          Proton
+        </label>
+      </div>
+      <div class="question">
+        <p>2. Which of the following is not a state of matter?</p>
+        <label>
+          <input type="radio" name="question2" value="a">
+          Solid
+        </label>
+        <label>
+          <input type="radio" name="question2" value="b">
+          Liquid
+        </label>
+        <label>
+          <input type="radio" name="question2" value="c">
+          Gas
+        </label>
+        <label>
+          <input type="radio" name="question2" value="d">
+          Energy
+        </label>
+      </div>
+      <div class="question">
+        <p>3. What is the process by which plants convert sunlight into energy?</p>
+        <label>
+          <input type="radio" name="question3" value="a">
+          Photosynthesis
+        </label>
+        <label>
+          <input type="radio" name="question3" value="b">
+          Respiration
+        </label>
+        <label>
+          <input type="radio" name="question3" value="c">
+          Digestion
+        </label>
+        <label>
+          <input type="radio" name="question3" value="d">
+          Fermentation
+        </label>
+      </div>
+      <div class="question">
+        <p>4. Which planet in our solar system is known for its prominent rings?</p>
+        <label>
+          <input type="radio" name="question4" value="a">
+          Earth
+        </label>
+        <label>
+          <input type="radio" name="question4" value="b">
+          Mars
+        </label>
+        <label>
+          <input type="radio" name="question4" value="c">
+          Jupiter
+        </label>
+        <label>
+          <input type="radio" name="question4" value="d">
+          Saturn
+        </label>
+      </div>
+      <div class="question">
+        <p>5. What is the study of the Earth's physical structure and processes?</p>
+        <label>
+          <input type="radio" name="question5" value="a">
+          Biology
+        </label>
+        <label>
+          <input type="radio" name="question5" value="b">
+          Geology
+        </label>
+        <label>
+          <input type="radio" name="question5" value="c">
+          Astronomy
+        </label>
+        <label>
+          <input type="radio" name="question5" value="d">
+          Chemistry
+  </label>
+      </div>
+      <button type="submit">Submit Answers</button>
+    </form>
+    <div id="quiz-results"></div>
+  </div>
+
+  <button id="retake-button" type="button">Retake Quiz</button>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
