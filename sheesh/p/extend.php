@@ -28,7 +28,7 @@ if (isset($_POST['first_name']) && isset($_POST['last_name']) && isset($_POST['e
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CSE ReviewBoost</title>
+	<title>Side Navigation Bar</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="lr.css">
 </head>
